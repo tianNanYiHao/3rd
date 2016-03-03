@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09305CBA1BCCE4F400AAA9A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CB91BCCE4F400AAA9A6 /* main.m */; };
+		09305CBD1BCCE4F400AAA9A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CBC1BCCE4F400AAA9A6 /* AppDelegate.m */; };
+		09305CC01BCCE4F400AAA9A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CBF1BCCE4F400AAA9A6 /* ViewController.m */; };
+		09305CC31BCCE4F500AAA9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09305CC11BCCE4F500AAA9A6 /* Main.storyboard */; };
+		09305CC51BCCE4F500AAA9A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09305CC41BCCE4F500AAA9A6 /* Images.xcassets */; };
+		09305CC81BCCE4F500AAA9A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09305CC61BCCE4F500AAA9A6 /* LaunchScreen.xib */; };
+		09305CD41BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CD31BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.m */; };
+		09305CE21BCCE51C00AAA9A6 /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CDF1BCCE51C00AAA9A6 /* WYPopoverController.m */; };
+		09305CE31BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CE11BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.m */; };
+		09305CE61BCCEF2C00AAA9A6 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09305CE51BCCEF2C00AAA9A6 /* ListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09305CCE1BCCE4F500AAA9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09305CAC1BCCE4F300AAA9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09305CB31BCCE4F300AAA9A6;
+			remoteInfo = iPhoneWYPopoverController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09305CB41BCCE4F300AAA9A6 /* iPhoneWYPopoverController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneWYPopoverController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09305CB81BCCE4F400AAA9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09305CB91BCCE4F400AAA9A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09305CBB1BCCE4F400AAA9A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09305CBC1BCCE4F400AAA9A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09305CBE1BCCE4F400AAA9A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09305CBF1BCCE4F400AAA9A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09305CC21BCCE4F500AAA9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09305CC41BCCE4F500AAA9A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09305CC71BCCE4F500AAA9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		09305CCD1BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneWYPopoverControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09305CD21BCCE4F500AAA9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09305CD31BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneWYPopoverControllerTests.m; sourceTree = "<group>"; };
+		09305CDE1BCCE51C00AAA9A6 /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
+		09305CDF1BCCE51C00AAA9A6 /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverController.m; sourceTree = "<group>"; };
+		09305CE01BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		09305CE11BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		09305CE41BCCEF2C00AAA9A6 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		09305CE51BCCEF2C00AAA9A6 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09305CB11BCCE4F300AAA9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09305CCA1BCCE4F500AAA9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09305CAB1BCCE4F300AAA9A6 = {
+			isa = PBXGroup;
+			children = (
+				09305CB61BCCE4F300AAA9A6 /* iPhoneWYPopoverController */,
+				09305CD01BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests */,
+				09305CB51BCCE4F300AAA9A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09305CB51BCCE4F300AAA9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09305CB41BCCE4F300AAA9A6 /* iPhoneWYPopoverController.app */,
+				09305CCD1BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09305CB61BCCE4F300AAA9A6 /* iPhoneWYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				09305CDD1BCCE51C00AAA9A6 /* WYPopoverController */,
+				09305CBB1BCCE4F400AAA9A6 /* AppDelegate.h */,
+				09305CBC1BCCE4F400AAA9A6 /* AppDelegate.m */,
+				09305CBE1BCCE4F400AAA9A6 /* ViewController.h */,
+				09305CBF1BCCE4F400AAA9A6 /* ViewController.m */,
+				09305CE41BCCEF2C00AAA9A6 /* ListViewController.h */,
+				09305CE51BCCEF2C00AAA9A6 /* ListViewController.m */,
+				09305CC11BCCE4F500AAA9A6 /* Main.storyboard */,
+				09305CC41BCCE4F500AAA9A6 /* Images.xcassets */,
+				09305CC61BCCE4F500AAA9A6 /* LaunchScreen.xib */,
+				09305CB71BCCE4F400AAA9A6 /* Supporting Files */,
+			);
+			path = iPhoneWYPopoverController;
+			sourceTree = "<group>";
+		};
+		09305CB71BCCE4F400AAA9A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09305CB81BCCE4F400AAA9A6 /* Info.plist */,
+				09305CB91BCCE4F400AAA9A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09305CD01BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				09305CD31BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.m */,
+				09305CD11BCCE4F500AAA9A6 /* Supporting Files */,
+			);
+			path = iPhoneWYPopoverControllerTests;
+			sourceTree = "<group>";
+		};
+		09305CD11BCCE4F500AAA9A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09305CD21BCCE4F500AAA9A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09305CDD1BCCE51C00AAA9A6 /* WYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				09305CDE1BCCE51C00AAA9A6 /* WYPopoverController.h */,
+				09305CDF1BCCE51C00AAA9A6 /* WYPopoverController.m */,
+				09305CE01BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.h */,
+				09305CE11BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.m */,
+			);
+			path = WYPopoverController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09305CB31BCCE4F300AAA9A6 /* iPhoneWYPopoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09305CD71BCCE4F500AAA9A6 /* Build configuration list for PBXNativeTarget "iPhoneWYPopoverController" */;
+			buildPhases = (
+				09305CB01BCCE4F300AAA9A6 /* Sources */,
+				09305CB11BCCE4F300AAA9A6 /* Frameworks */,
+				09305CB21BCCE4F300AAA9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneWYPopoverController;
+			productName = iPhoneWYPopoverController;
+			productReference = 09305CB41BCCE4F300AAA9A6 /* iPhoneWYPopoverController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09305CCC1BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09305CDA1BCCE4F500AAA9A6 /* Build configuration list for PBXNativeTarget "iPhoneWYPopoverControllerTests" */;
+			buildPhases = (
+				09305CC91BCCE4F500AAA9A6 /* Sources */,
+				09305CCA1BCCE4F500AAA9A6 /* Frameworks */,
+				09305CCB1BCCE4F500AAA9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09305CCF1BCCE4F500AAA9A6 /* PBXTargetDependency */,
+			);
+			name = iPhoneWYPopoverControllerTests;
+			productName = iPhoneWYPopoverControllerTests;
+			productReference = 09305CCD1BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09305CAC1BCCE4F300AAA9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JCQ;
+				TargetAttributes = {
+					09305CB31BCCE4F300AAA9A6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					09305CCC1BCCE4F500AAA9A6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 09305CB31BCCE4F300AAA9A6;
+					};
+				};
+			};
+			buildConfigurationList = 09305CAF1BCCE4F300AAA9A6 /* Build configuration list for PBXProject "iPhoneWYPopoverController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09305CAB1BCCE4F300AAA9A6;
+			productRefGroup = 09305CB51BCCE4F300AAA9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09305CB31BCCE4F300AAA9A6 /* iPhoneWYPopoverController */,
+				09305CCC1BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09305CB21BCCE4F300AAA9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09305CC31BCCE4F500AAA9A6 /* Main.storyboard in Resources */,
+				09305CC81BCCE4F500AAA9A6 /* LaunchScreen.xib in Resources */,
+				09305CC51BCCE4F500AAA9A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09305CCB1BCCE4F500AAA9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09305CB01BCCE4F300AAA9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09305CC01BCCE4F400AAA9A6 /* ViewController.m in Sources */,
+				09305CBD1BCCE4F400AAA9A6 /* AppDelegate.m in Sources */,
+				09305CE61BCCEF2C00AAA9A6 /* ListViewController.m in Sources */,
+				09305CBA1BCCE4F400AAA9A6 /* main.m in Sources */,
+				09305CE21BCCE51C00AAA9A6 /* WYPopoverController.m in Sources */,
+				09305CE31BCCE51C00AAA9A6 /* WYStoryboardPopoverSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09305CC91BCCE4F500AAA9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09305CD41BCCE4F500AAA9A6 /* iPhoneWYPopoverControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09305CCF1BCCE4F500AAA9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09305CB31BCCE4F300AAA9A6 /* iPhoneWYPopoverController */;
+			targetProxy = 09305CCE1BCCE4F500AAA9A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09305CC11BCCE4F500AAA9A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09305CC21BCCE4F500AAA9A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09305CC61BCCE4F500AAA9A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09305CC71BCCE4F500AAA9A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09305CD51BCCE4F500AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09305CD61BCCE4F500AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09305CD81BCCE4F500AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPhoneWYPopoverController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09305CD91BCCE4F500AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPhoneWYPopoverController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09305CDB1BCCE4F500AAA9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhoneWYPopoverControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneWYPopoverController.app/iPhoneWYPopoverController";
+			};
+			name = Debug;
+		};
+		09305CDC1BCCE4F500AAA9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhoneWYPopoverControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneWYPopoverController.app/iPhoneWYPopoverController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09305CAF1BCCE4F300AAA9A6 /* Build configuration list for PBXProject "iPhoneWYPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09305CD51BCCE4F500AAA9A6 /* Debug */,
+				09305CD61BCCE4F500AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09305CD71BCCE4F500AAA9A6 /* Build configuration list for PBXNativeTarget "iPhoneWYPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09305CD81BCCE4F500AAA9A6 /* Debug */,
+				09305CD91BCCE4F500AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09305CDA1BCCE4F500AAA9A6 /* Build configuration list for PBXNativeTarget "iPhoneWYPopoverControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09305CDB1BCCE4F500AAA9A6 /* Debug */,
+				09305CDC1BCCE4F500AAA9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09305CAC1BCCE4F300AAA9A6 /* Project object */;
+}
