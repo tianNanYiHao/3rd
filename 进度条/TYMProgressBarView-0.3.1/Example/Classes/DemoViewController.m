@@ -69,6 +69,8 @@
     TYMProgressBarView *progressBarView1 = [[TYMProgressBarView alloc] initWithFrame:CGRectMake(offsetX, offsetY, width, 16.0f)];
     progressBarView1.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     progressBarView1.progress = 0.25;
+    progressBarView1.barBorderColor = [UIColor orangeColor];
+    progressBarView1.barFillColor = [UIColor greenColor];
     [self.view addSubview:progressBarView1];
     
     offsetY += 30.0f;
