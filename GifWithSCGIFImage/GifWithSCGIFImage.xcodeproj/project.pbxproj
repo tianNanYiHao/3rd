@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870C0B941CD0A91E0007110F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C0B931CD0A91E0007110F /* main.m */; };
+		870C0B971CD0A91E0007110F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C0B961CD0A91E0007110F /* AppDelegate.m */; };
+		870C0B9A1CD0A91E0007110F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C0B991CD0A91E0007110F /* ViewController.m */; };
+		870C0B9D1CD0A91E0007110F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870C0B9B1CD0A91E0007110F /* Main.storyboard */; };
+		870C0BA01CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 870C0B9E1CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodeld */; };
+		870C0BA21CD0A91E0007110F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870C0BA11CD0A91E0007110F /* Assets.xcassets */; };
+		870C0BA51CD0A91E0007110F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870C0BA31CD0A91E0007110F /* LaunchScreen.storyboard */; };
+		870C0BB01CD0A91E0007110F /* GifWithSCGIFImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C0BAF1CD0A91E0007110F /* GifWithSCGIFImageTests.m */; };
+		870C0BBB1CD0A91E0007110F /* GifWithSCGIFImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C0BBA1CD0A91E0007110F /* GifWithSCGIFImageUITests.m */; };
+		870C0BCA1CD0AA390007110F /* SCGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 870C0BC91CD0AA390007110F /* SCGIFImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		870C0BCC1CD0AA610007110F /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 870C0BCB1CD0AA610007110F /* 1.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		870C0BAC1CD0A91E0007110F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870C0B871CD0A91E0007110F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870C0B8E1CD0A91E0007110F;
+			remoteInfo = GifWithSCGIFImage;
+		};
+		870C0BB71CD0A91E0007110F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870C0B871CD0A91E0007110F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870C0B8E1CD0A91E0007110F;
+			remoteInfo = GifWithSCGIFImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		870C0B8F1CD0A91E0007110F /* GifWithSCGIFImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifWithSCGIFImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		870C0B931CD0A91E0007110F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		870C0B951CD0A91E0007110F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		870C0B961CD0A91E0007110F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		870C0B981CD0A91E0007110F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		870C0B991CD0A91E0007110F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		870C0B9C1CD0A91E0007110F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870C0B9F1CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GifWithSCGIFImage.xcdatamodel; sourceTree = "<group>"; };
+		870C0BA11CD0A91E0007110F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		870C0BA41CD0A91E0007110F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		870C0BA61CD0A91E0007110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870C0BAB1CD0A91E0007110F /* GifWithSCGIFImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifWithSCGIFImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870C0BAF1CD0A91E0007110F /* GifWithSCGIFImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifWithSCGIFImageTests.m; sourceTree = "<group>"; };
+		870C0BB11CD0A91E0007110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870C0BB61CD0A91E0007110F /* GifWithSCGIFImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifWithSCGIFImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870C0BBA1CD0A91E0007110F /* GifWithSCGIFImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifWithSCGIFImageUITests.m; sourceTree = "<group>"; };
+		870C0BBC1CD0A91E0007110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870C0BC81CD0AA390007110F /* SCGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGIFImageView.h; sourceTree = "<group>"; };
+		870C0BC91CD0AA390007110F /* SCGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGIFImageView.m; sourceTree = "<group>"; };
+		870C0BCB1CD0AA610007110F /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870C0B8C1CD0A91E0007110F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870C0BA81CD0A91E0007110F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870C0BB31CD0A91E0007110F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870C0B861CD0A91E0007110F = {
+			isa = PBXGroup;
+			children = (
+				870C0B911CD0A91E0007110F /* GifWithSCGIFImage */,
+				870C0BAE1CD0A91E0007110F /* GifWithSCGIFImageTests */,
+				870C0BB91CD0A91E0007110F /* GifWithSCGIFImageUITests */,
+				870C0B901CD0A91E0007110F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870C0B901CD0A91E0007110F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870C0B8F1CD0A91E0007110F /* GifWithSCGIFImage.app */,
+				870C0BAB1CD0A91E0007110F /* GifWithSCGIFImageTests.xctest */,
+				870C0BB61CD0A91E0007110F /* GifWithSCGIFImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870C0B911CD0A91E0007110F /* GifWithSCGIFImage */ = {
+			isa = PBXGroup;
+			children = (
+				870C0B951CD0A91E0007110F /* AppDelegate.h */,
+				870C0B961CD0A91E0007110F /* AppDelegate.m */,
+				870C0B981CD0A91E0007110F /* ViewController.h */,
+				870C0B991CD0A91E0007110F /* ViewController.m */,
+				870C0BCB1CD0AA610007110F /* 1.gif */,
+				870C0B9B1CD0A91E0007110F /* Main.storyboard */,
+				870C0BC81CD0AA390007110F /* SCGIFImageView.h */,
+				870C0BC91CD0AA390007110F /* SCGIFImageView.m */,
+				870C0BA11CD0A91E0007110F /* Assets.xcassets */,
+				870C0BA31CD0A91E0007110F /* LaunchScreen.storyboard */,
+				870C0BA61CD0A91E0007110F /* Info.plist */,
+				870C0B9E1CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodeld */,
+				870C0B921CD0A91E0007110F /* Supporting Files */,
+			);
+			path = GifWithSCGIFImage;
+			sourceTree = "<group>";
+		};
+		870C0B921CD0A91E0007110F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				870C0B931CD0A91E0007110F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		870C0BAE1CD0A91E0007110F /* GifWithSCGIFImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				870C0BAF1CD0A91E0007110F /* GifWithSCGIFImageTests.m */,
+				870C0BB11CD0A91E0007110F /* Info.plist */,
+			);
+			path = GifWithSCGIFImageTests;
+			sourceTree = "<group>";
+		};
+		870C0BB91CD0A91E0007110F /* GifWithSCGIFImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				870C0BBA1CD0A91E0007110F /* GifWithSCGIFImageUITests.m */,
+				870C0BBC1CD0A91E0007110F /* Info.plist */,
+			);
+			path = GifWithSCGIFImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870C0B8E1CD0A91E0007110F /* GifWithSCGIFImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870C0BBF1CD0A91E0007110F /* Build configuration list for PBXNativeTarget "GifWithSCGIFImage" */;
+			buildPhases = (
+				870C0B8B1CD0A91E0007110F /* Sources */,
+				870C0B8C1CD0A91E0007110F /* Frameworks */,
+				870C0B8D1CD0A91E0007110F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifWithSCGIFImage;
+			productName = GifWithSCGIFImage;
+			productReference = 870C0B8F1CD0A91E0007110F /* GifWithSCGIFImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		870C0BAA1CD0A91E0007110F /* GifWithSCGIFImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870C0BC21CD0A91E0007110F /* Build configuration list for PBXNativeTarget "GifWithSCGIFImageTests" */;
+			buildPhases = (
+				870C0BA71CD0A91E0007110F /* Sources */,
+				870C0BA81CD0A91E0007110F /* Frameworks */,
+				870C0BA91CD0A91E0007110F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870C0BAD1CD0A91E0007110F /* PBXTargetDependency */,
+			);
+			name = GifWithSCGIFImageTests;
+			productName = GifWithSCGIFImageTests;
+			productReference = 870C0BAB1CD0A91E0007110F /* GifWithSCGIFImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		870C0BB51CD0A91E0007110F /* GifWithSCGIFImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870C0BC51CD0A91E0007110F /* Build configuration list for PBXNativeTarget "GifWithSCGIFImageUITests" */;
+			buildPhases = (
+				870C0BB21CD0A91E0007110F /* Sources */,
+				870C0BB31CD0A91E0007110F /* Frameworks */,
+				870C0BB41CD0A91E0007110F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870C0BB81CD0A91E0007110F /* PBXTargetDependency */,
+			);
+			name = GifWithSCGIFImageUITests;
+			productName = GifWithSCGIFImageUITests;
+			productReference = 870C0BB61CD0A91E0007110F /* GifWithSCGIFImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870C0B871CD0A91E0007110F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Aotu;
+				TargetAttributes = {
+					870C0B8E1CD0A91E0007110F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					870C0BAA1CD0A91E0007110F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 870C0B8E1CD0A91E0007110F;
+					};
+					870C0BB51CD0A91E0007110F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 870C0B8E1CD0A91E0007110F;
+					};
+				};
+			};
+			buildConfigurationList = 870C0B8A1CD0A91E0007110F /* Build configuration list for PBXProject "GifWithSCGIFImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870C0B861CD0A91E0007110F;
+			productRefGroup = 870C0B901CD0A91E0007110F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870C0B8E1CD0A91E0007110F /* GifWithSCGIFImage */,
+				870C0BAA1CD0A91E0007110F /* GifWithSCGIFImageTests */,
+				870C0BB51CD0A91E0007110F /* GifWithSCGIFImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870C0B8D1CD0A91E0007110F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870C0BA51CD0A91E0007110F /* LaunchScreen.storyboard in Resources */,
+				870C0BA21CD0A91E0007110F /* Assets.xcassets in Resources */,
+				870C0BCC1CD0AA610007110F /* 1.gif in Resources */,
+				870C0B9D1CD0A91E0007110F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870C0BA91CD0A91E0007110F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870C0BB41CD0A91E0007110F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870C0B8B1CD0A91E0007110F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870C0B9A1CD0A91E0007110F /* ViewController.m in Sources */,
+				870C0B971CD0A91E0007110F /* AppDelegate.m in Sources */,
+				870C0BCA1CD0AA390007110F /* SCGIFImageView.m in Sources */,
+				870C0B941CD0A91E0007110F /* main.m in Sources */,
+				870C0BA01CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870C0BA71CD0A91E0007110F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870C0BB01CD0A91E0007110F /* GifWithSCGIFImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870C0BB21CD0A91E0007110F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870C0BBB1CD0A91E0007110F /* GifWithSCGIFImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		870C0BAD1CD0A91E0007110F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870C0B8E1CD0A91E0007110F /* GifWithSCGIFImage */;
+			targetProxy = 870C0BAC1CD0A91E0007110F /* PBXContainerItemProxy */;
+		};
+		870C0BB81CD0A91E0007110F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870C0B8E1CD0A91E0007110F /* GifWithSCGIFImage */;
+			targetProxy = 870C0BB71CD0A91E0007110F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		870C0B9B1CD0A91E0007110F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870C0B9C1CD0A91E0007110F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870C0BA31CD0A91E0007110F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870C0BA41CD0A91E0007110F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870C0BBD1CD0A91E0007110F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		870C0BBE1CD0A91E0007110F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870C0BC01CD0A91E0007110F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifWithSCGIFImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianhaichuanqi.GifWithSCGIFImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		870C0BC11CD0A91E0007110F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifWithSCGIFImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianhaichuanqi.GifWithSCGIFImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		870C0BC31CD0A91E0007110F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifWithSCGIFImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianhaichuanqi.GifWithSCGIFImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifWithSCGIFImage.app/GifWithSCGIFImage";
+			};
+			name = Debug;
+		};
+		870C0BC41CD0A91E0007110F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifWithSCGIFImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianhaichuanqi.GifWithSCGIFImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifWithSCGIFImage.app/GifWithSCGIFImage";
+			};
+			name = Release;
+		};
+		870C0BC61CD0A91E0007110F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GifWithSCGIFImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianhaichuanqi.GifWithSCGIFImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifWithSCGIFImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		870C0BC71CD0A91E0007110F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GifWithSCGIFImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianhaichuanqi.GifWithSCGIFImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifWithSCGIFImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870C0B8A1CD0A91E0007110F /* Build configuration list for PBXProject "GifWithSCGIFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870C0BBD1CD0A91E0007110F /* Debug */,
+				870C0BBE1CD0A91E0007110F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870C0BBF1CD0A91E0007110F /* Build configuration list for PBXNativeTarget "GifWithSCGIFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870C0BC01CD0A91E0007110F /* Debug */,
+				870C0BC11CD0A91E0007110F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		870C0BC21CD0A91E0007110F /* Build configuration list for PBXNativeTarget "GifWithSCGIFImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870C0BC31CD0A91E0007110F /* Debug */,
+				870C0BC41CD0A91E0007110F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		870C0BC51CD0A91E0007110F /* Build configuration list for PBXNativeTarget "GifWithSCGIFImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870C0BC61CD0A91E0007110F /* Debug */,
+				870C0BC71CD0A91E0007110F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		870C0B9E1CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				870C0B9F1CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodel */,
+			);
+			currentVersion = 870C0B9F1CD0A91E0007110F /* GifWithSCGIFImage.xcdatamodel */;
+			path = GifWithSCGIFImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 870C0B871CD0A91E0007110F /* Project object */;
+}
