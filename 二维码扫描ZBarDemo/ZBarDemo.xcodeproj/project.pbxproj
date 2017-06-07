@@ -391,6 +391,8 @@
 				TargetAttributes = {
 					37B1FA9D1A4961D300D09A8A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = CYP2Q7U7L3;
+						ProvisioningStyle = Manual;
 					};
 					37B1FAB61A4961D300D09A8A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -595,13 +597,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CYP2Q7U7L3;
 				INFOPLIST_FILE = ZBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZBarDemo/ZBarSDK",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.zbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "32ba215d-640b-4eb3-a9d3-4d9d85e23158";
+				PROVISIONING_PROFILE_SPECIFIER = sandComm_Dev_Profile;
 			};
 			name = Debug;
 		};
@@ -609,13 +615,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CYP2Q7U7L3;
 				INFOPLIST_FILE = ZBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZBarDemo/ZBarSDK",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sand.zbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "32ba215d-640b-4eb3-a9d3-4d9d85e23158";
+				PROVISIONING_PROFILE_SPECIFIER = sandComm_Dev_Profile;
 			};
 			name = Release;
 		};
@@ -672,6 +682,7 @@
 				37B1FAC31A4961D300D09A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37B1FAC41A4961D300D09A8A /* Build configuration list for PBXNativeTarget "ZBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -680,6 +691,7 @@
 				37B1FAC61A4961D300D09A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
